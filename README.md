@@ -6,5 +6,14 @@
    if u want to read the documentation of this api https://www.themoviedb.org/documentation/api
  
 ### Feature
-   [checkbox:checked] Users can search for the desired movie
+   - [x] Users can search for the desired movie
+   - [x] Can bookmarks/favorite witch movies
+   - [x] Users can see list of movies (from the popular and random movies
    
+### Tools
+   - [x] SQLite for database
+   - [x] GSON (https://github.com/google/gson)
+   - [x] JSON
+   - [x] GLIDE (https://github.com/bumptech/glide)
+   - [x] BUTTERKNIFE (https://github.com/JakeWharton/butterknife)
+   etc.
