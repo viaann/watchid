@@ -5,7 +5,7 @@
 ### Feature
    - [x] Users can search for the desired movie
    - [x] Can bookmarks/favorite witch movies
-   - [x] Users can see list of movies (from the popular and random movies etc.
+   - [x] Users can see list of movies (from the popular and random movies) etc.
    
 ### Tools
    - [x] SQLite for database
