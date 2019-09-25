@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/detailView"
+    tools:context=".Activity.DetailActivity"
+    android:background="@color/colorPrimary">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Activity.DetailActivity"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/detailPoster"
+        android:layout_width="415dp"
+        android:layout_height="309dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/backdrop"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backdrop_avenger" />
+
+    <TextView
+        android:id="@+id/detailTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailPoster"
+        android:text="@string/avengers_endgame" />
+
+    <RatingBar
+        android:id="@+id/detailRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailTitle"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:rating="4.5"/>
+
+    <TextView
+        android:id="@+id/detailOverview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/after_the_devastating_events_of_avengers_infinity_war_the_universe_is_in_ruins_due_to_the_efforts_of_the_mad_titan_thanos_with_the_help_of_remaining_allies_the_avengers_must_assemble_once_more_in_order_to_undo_thanos_actions_and_restore_order_to_the_universe_once_and_for_all_no_matter_what_consequences_may_be_in_store"
+        android:textAlignment="textStart"
+        android:textColor="#ECF0F1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailRating" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/detailRv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailOverview"
+        tools:listitem="@layout/item_credit_list" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/release_date"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detailRv" />
+
+    <TextView
+        android:id="@+id/detailDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/_2019_04_24"
+        android:textColor="#ECF0F1"
+        android:textSize="17sp"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/detailRv" />
+
+
+    <ImageView
+        android:id="@+id/detailFavorite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="264dp"
+        app:layout_constraintBottom_toBottomOf="@+id/detailPoster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+
+    <ImageView
+        android:id="@+id/detailBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/detailPoster"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <ProgressBar
+        android:id="@+id/detailProgress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

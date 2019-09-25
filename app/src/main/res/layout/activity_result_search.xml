@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/resultActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Activity.ResultSearchActivity">
+
+    <include
+        android:id="@+id/resultToolbar"
+        layout="@layout/toolbar" />
+
+    <include layout="@layout/null_layout"
+        android:layout_below="@id/rvSearch"
+        android:visibility="visible"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSearch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/resultToolbar"
+        tools:listitem="@layout/item_popular_list" />
+
+
+    <ProgressBar
+        android:id="@+id/resultProgressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminate="true" />
+</RelativeLayout>

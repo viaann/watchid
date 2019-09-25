@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">WatchID</string>
+    <string name="title_home">Home</string>
+    <string name="title_movie">Movie</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="now_playing">Playing Today</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="poster" translatable="false">Poster</string>
+    <string name="john_wick_chapter_3_parabellum" translatable="false">John Wick: Chapter 3 – Parabellum</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="recommended_for_you">Recommended For You</string>
+    <string name="backdrop" translatable="false">backdrop</string>
+    <string name="chris_evans" translatable="false">Chris Evans</string>
+    <string name="after_the_devastating_events_of_avengers_infinity_war_the_universe_is_in_ruins_due_to_the_efforts_of_the_mad_titan_thanos_with_the_help_of_remaining_allies_the_avengers_must_assemble_once_more_in_order_to_undo_thanos_actions_and_restore_order_to_the_universe_once_and_for_all_no_matter_what_consequences_may_be_in_store" translatable="false">After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos\' actions and restore order to the universe once and for all, no matter what consequences may be in store.</string>
+    <string name="avengers_endgame" translatable="false">Avengers: Endgame</string>
+    <string name="steve_rogers_captain_america" translatable="false">Steve Rogers / Captain America</string>
+    <string name="status">Status</string>
+    <string name="_2019_04_24" translatable="false">2019-04-24</string>
+    <string name="release_date">Release Date</string>
+    <string name="genre" translatable="false">Genre</string>
+    <string name="adventure_science_fiction_action" translatable="false">Adventure, Science Fiction</string>
+    <string name="toprated" translatable="false">Top Rated</string>
+    <string name="discover">Discover</string>
+    <string name="popular">Popular</string>
+    <string name="search">Search</string>
+    <string name="change_language">Change language</string>
+    <string name="favorite_deletd">Favorite Deleted</string>;
+    <string name="successfav">added to Favorite</string>;
+    <string name="failedfav">failed to Favorite</string>
+    <string name="there_are_no_result">There are no result</string>
+    <string name="result">Result for : </string>
+</resources>

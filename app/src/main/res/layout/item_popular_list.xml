@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/btn_movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#212F3C"
+        card_view:cardCornerRadius="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/popularPoster"
+            android:layout_width="97dp"
+            android:layout_height="109dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/poster_johnwick"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toStartOf="@+id/popularTitle"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/popularTitle"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            card_view:layout_constraintStart_toEndOf="@+id/popularPoster"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/john_wick_chapter_3_parabellum" />
+
+        <RatingBar
+            android:id="@+id/popularRating"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="82dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="8dp"
+            android:rating="4.5"
+            card_view:layout_constraintStart_toEndOf="@+id/popularPoster"
+            card_view:layout_constraintTop_toBottomOf="@+id/popularTitle" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>

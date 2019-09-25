@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WatchID</string>
+    <string name="change_language">Ganti Bahasa</string>
+    <string name="discover">Jelajah</string>
+    <string name="failedfav">gagal untuk menambahkan</string>
+    <string name="favorite_deletd">Favorit dihapus</string>
+    <string name="now_playing">Tayang Sekarang</string>
+    <string name="popular">Populer</string>
+    <string name="recommended_for_you">Rekomendasi</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="result">Hasil Dari :</string>
+    <string name="search">Cari</string>
+    <string name="status">Status</string>
+    <string name="successfav">menambahkan</string>
+    <string name="there_are_no_result">Tidak ada hasil</string>
+    <string name="title">Judul</string>
+    <string name="title_favorite">Favorit</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_movie">Film</string>
+    <string name="upcoming">Yang Akan Tayang</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#7E7B7B</item>
+        <item name="colorControlActivated">#FFC107</item>
+    </style>
+
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">#FFFF</item>
+    </style>
+
+
+</resources>
