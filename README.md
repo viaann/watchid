@@ -5,3 +5,6 @@
    this api from https://www.themoviedb.org/ <br>
    if u want to read the documentation of this api https://www.themoviedb.org/documentation/api
  
+### Feature
+   [checkbox:checked] Users can search for the desired movie
+   
