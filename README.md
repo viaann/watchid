@@ -1,6 +1,5 @@
 ### API
-   this api from https://www.themoviedb.org/ <br>
-   if u want to read the documentation of this api https://www.themoviedb.org/documentation/api
+   https://www.themoviedb.org/ <br>
  
 ### Feature
    - [x] Users can search for the desired movie
